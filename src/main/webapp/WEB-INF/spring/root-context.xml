@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		<bean id="commentDao" class="com.neu.askme.dao.CommentDAO" ></bean>
+		<bean id="postDao" class="com.neu.askme.dao.PostDAO" ></bean>
+		<bean id="tagDao" class="com.neu.askme.dao.TagDAO" ></bean>
+		<bean id="userDao" class="com.neu.askme.dao.UserDAO" ></bean>
+		<bean id="postLikesDao" class="com.neu.askme.dao.PostLikesDAO"></bean>
+		
+		<bean id="userValidator" class="com.neu.askme.validator.UserValidator"></bean>
+		<bean id="postValidator" class="com.neu.askme.validator.PostValidator"></bean>
+</beans>
