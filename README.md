@@ -18,6 +18,9 @@ The application is protected from cross-site scripting using HttpServletRequestW
 ## Requirements:
 
 JDK 8.
+
 Maven.
+
 Database, such as MySQL.
-Web server, such as Apache Tomcat 8.0 (tested only on Tomcat, probably works on other web servers too, maybe requires minor modifications).
+
+Web server, such as Apache Tomcat 8.0 
