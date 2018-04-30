@@ -13,3 +13,11 @@ There is a login and registration functionality included.
 User has his own blog page, where he can add new blog posts. Every authenticated user can comment on posts made by other users. Non-authenticated users can see all blog posts, but cannot add new posts or comment. The blogs can be categorized in various tags.
 
 The application is protected from cross-site scripting using HttpServletRequestWrapper.
+
+
+## Requirements:
+
+JDK 8.
+Maven.
+Database, such as MySQL.
+Web server, such as Apache Tomcat 8.0 (tested only on Tomcat, probably works on other web servers too, maybe requires minor modifications).
